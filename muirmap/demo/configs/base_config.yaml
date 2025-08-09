@@ -1,0 +1,13 @@
+project_crs: "EPSG:5880"
+base_data_path: "[DEMO]"
+clr_path: "lulc/mapbiomas-lulc-color-codes.clr"    
+rasters:
+  "lulc":
+    path: "lulc/mapbiomas-30m-2023-5880.tif"
+  "dem":
+    path: "dem/srtm-v3-1s-2025-dem-5880.tif"
+  "soil_erodibility":
+    path: "soil_erodibility/K-factor-EPIC-5880.tif"
+vectors:
+  "aoi":
+    path: "area_of_interest/area_of_interest_5880.shp"

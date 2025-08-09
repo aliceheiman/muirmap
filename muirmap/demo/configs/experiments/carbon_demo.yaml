@@ -1,0 +1,13 @@
+base_data_path: "[DEMO]"
+calc_sequestration: false
+carbon_pools_path: ''
+discount_rate: ''
+do_valuation: false
+lulc_alt_path: ''
+lulc_alt_year: ''
+lulc_bas_path: ''
+lulc_bas_year: ''
+price_per_metric_ton_of_c: ''
+rate_change: ''
+results_suffix: ''
+workspace_dir: ''

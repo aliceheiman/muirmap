@@ -1,0 +1,24 @@
+project_crs: "EPSG:5880"
+base_data_path: "[DEMO]"
+clr_path: "lulc/mapbiomas-lulc-color-codes.clr"    
+rasters:
+  "lulc":
+    raw_path: "lulc/raw/mapbiomas-30m-2023-bbox.tif"
+    out_path: "lulc/mapbiomas-30m-2023-5880.tif"
+    setnodata: 255
+    resampling: "nearest"
+  "dem":
+    raw_path: "dem/raw/srtm-v3-1s-2025-dem-bbox.tif"
+    out_path: "dem/srtm-v3-1s-2025-dem-5880.tif"
+    setnodata: null
+    resampling: "bilinear"
+  "soil_erodibility":
+    raw_path: "soil_erodibility/raw/K_factor_EPIC_bbox.tif"
+    out_path: "soil_erodibility/K-factor-EPIC-5880.tif"
+    setnodata: null
+    resampling: "nearest"
+vectors:
+  "aoi":
+    raw_path: "area_of_interest/raw/area_of_interest_subwatershed.shp"
+    out_path: "area_of_interest/area_of_interest_5880.shp"
+    buffered_path: "area_of_interest/area_of_interest_5880_buffered.shp"
