@@ -1,0 +1,10 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - 01_raster.ipynb
+      - 02_vector.ipynb
+      - 03_visualization.ipynb
+      - 04_biophysical.ipynb
+      - 05_experiments.ipynb
